@@ -31,4 +31,4 @@ new Tyzen(new Connectors.OceanicJS(client), servers, options)
 
 ## Support
 
-For questions on how to do so, just ask at my support server at [HERE](https://discord.gg/FVqbtGu) (#Development)
+For questions on how to do so, just ask at my support server at [HERE](https://discord.gg/s57BUJVuNQ) (#Development)
