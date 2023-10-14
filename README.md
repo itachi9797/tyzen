@@ -182,3 +182,5 @@ const player = await tyzen.joinVoiceChannel({
 console.log(tyzen.getIdealNode());
 // and other changes I'm not able to document(?);
 ```
+
+> Support Server [HERE](https://discord.gg/s95KsC7yKe)
