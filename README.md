@@ -20,7 +20,7 @@
 
 ### Supported Libraries
 
-Refer to [/src/connectors](https://github.comsikey-dev/tyzen/tree/master/src/connectors) for list of supported libraries + how to support other libraries
+Refer to [/src/connectors](https://github.comsikey-dev/tyzen/tree/main/src/connectors) for list of supported libraries + how to support other libraries
 
 ### Installation
 
@@ -32,7 +32,7 @@ Refer to [/src/connectors](https://github.comsikey-dev/tyzen/tree/master/src/con
 
 > `npm install https://github.com/sikey-dev/tyzen.git`
 
-> Lavalink v4 support is currently deployed on master branch, do `npm install https://github.com/sikey-dev/tyzen.git`
+> Lavalink v4 support is currently deployed on main branch, do `npm install https://github.com/sikey-dev/tyzen.git`
 
 > Dev versions are not guaranteed to stay the same api wise, and even with last known stable, I won't say it's 100% stable
 
