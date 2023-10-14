@@ -20,7 +20,7 @@
 
 ### Supported Libraries
 
-Refer to [/src/connectors](https://github.comsikey-dev/tyzen/tree/main/src/connectors) for list of supported libraries + how to support other libraries
+Refer to [/src/connectors](https://github.com/sikey-dev/tyzen/tree/main/src/connectors) for list of supported libraries + how to support other libraries
 
 ### Installation
 

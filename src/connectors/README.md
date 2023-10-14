@@ -3,21 +3,21 @@
 > [Discord.JS](https://discord.js.org/#/) (v13.x.x & 14.0.0-dev.1652573522-7ce641d)
 
 ```js
-const { Tyzen, Connectors } = require('Tyzen');
+const { Tyzen, Connectors } = require('tyzen');
 new Tyzen(new Connectors.DiscordJS(client), servers, options);
 ```
 
 > [Eris](https://abal.moe/Eris/) (0.15.x / 0.16.x / 0.17.x)
 
 ```js
-const { Tyzen, Connectors } = require('Tyzen');
+const { Tyzen, Connectors } = require('tyzen');
 new Tyzen(new Connectors.Eris(client), servers, options)
 ```
 
 > [Oceanic.JS](https://oceanic.ws/) (1.0.x)
 
 ```js
-const { Tyzen, Connectors } = require('Tyzen');
+const { Tyzen, Connectors } = require('tyzen');
 new Tyzen(new Connectors.OceanicJS(client), servers, options)
 ```
 
