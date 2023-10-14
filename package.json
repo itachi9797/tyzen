@@ -1,0 +1,58 @@
+{
+  "name": "tyzen",
+  "version": "1.0.0-dev",
+  "description": "A stable and updated wrapper around Lavalink",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "npm run build:ts && npm run build:docs",
+    "build:ts": "tsup --config tsup-config.json",
+    "build:docs": "typedoc --theme default --readme README.md --out docs/ --entryPointStrategy expand src/.",
+    "lint": "eslint --fix --ext .ts",
+    "prepare": "npm run build:ts"
+  },
+  "keywords": [
+    "bot",
+    "music",
+    "lavalink",
+    "api",
+    "discord",
+    "lavalink.js",
+    "discord.js",
+    "lavalink-api",
+    "weeb-library"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=7.0.0"
+  },
+  "author": "Sikey",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sikey-dev/tyzen.git"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@augu/eslint-config": "^4.0.1",
+    "@types/node": "^20.3.1",
+    "@types/node-fetch": "^2.6.4",
+    "@types/ws": "^8.5.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "eslint": "^8.42.0",
+    "tsup": "^6.7.0",
+    "typedoc": "^0.24.8",
+    "typescript": "^5.1.3"
+  }
+}
