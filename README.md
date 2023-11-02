@@ -1,4 +1,4 @@
-## Shoukaku
+## Tyzen
 
 > A stable and updated wrapper around Lavalink
 
@@ -56,7 +56,7 @@ client.login('token');
 client.tyzen = tyzen;
 ```
 
-> Never initialize Shoukaku like this, or else she will never initialize, start tyzen before you call `client.login()`
+> Never initialize Tyzen like this, or else she will never initialize, start tyzen before you call `client.login()`
 ```js
 // NEVER DO THIS, OR TYZEN WILL NEVER INITIALIZE
 client.on('ready', () => {
@@ -140,7 +140,7 @@ client.once('ready', async () => {
     await player.playTrack({ track: metadata.encoded });
     setTimeout(async () => {
         // simulate a timeout event, after specific amount of time, we leave the voice channel
-        // you now destroy players / leave voice channels by calling leaveVoiceChannel in main shoukaku class
+        // you now destroy players / leave voice channels by calling leaveVoiceChannel in main tyzen class
         await tyzen.leaveVoiceChannel(player.guildId);
     }, 30000);
 })
