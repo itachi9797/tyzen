@@ -1,6 +1,6 @@
 {
   "name": "tyzen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A stable and updated wrapper around Lavalink",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
