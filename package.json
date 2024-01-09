@@ -38,7 +38,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sikey-dev/tyzen.git"
+    "url": "https://github.com/itachi9797/tyzen.git"
   },
   "dependencies": {
     "ws": "^8.13.0"
